@@ -1,0 +1,200 @@
+
+body {
+  background-image: url('fons\ de\ pantalla\ \(1\).png');
+  background-size: cover;
+  min-height: 100vh;
+}
+  .menu {
+    opacity: 0.7;
+    background-color: #9ac8d6;
+    padding: 10px;
+    border-color: #000000;
+    border-width: 10px;
+  }
+  
+  .menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center; 
+  }
+  
+  .menu li {
+    display: inline;
+    margin-right: 10%;
+  }
+  
+  .menu li a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Times New Roman", serif
+    
+  }
+  
+
+  h1 {
+    opacity: 0.7;
+    background-color: #9ac8d6;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: "Times New Roman", serif 
+  }
+  
+ 
+  
+    .section {
+      opacity: 0.7;
+      margin: 0 auto; 
+      margin-bottom: 20px;
+      width: 50%; 
+      border-radius: 20%;
+      padding: 10%;
+      background-color: #ffffff;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+  
+  
+  .section h2 {
+    font-size: 30px;
+    color: #333333;
+    margin-bottom: 20px;
+    font-family: "Times New Roman", serif 
+  }
+  
+  .section p {
+    
+    margin: 0;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: "Times New Roman", serif 
+  }
+  
+
+  .section ul {
+    list-style-type: none;
+    padding: 0;
+    font-family: "Times New Roman", serif 
+  }
+  
+  .section li {
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-family: "Times New Roman", serif 
+  }
+  
+
+  .table-container {
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th,
+  table td {
+    padding: 10px;
+    border: 1px solid #333333;
+  }
+  
+  table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+
+  .footer {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    font-family: "Times New Roman", serif;
+  }
+  
+
+  .img-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .img-container img {
+    max-width: 100%;
+  }
+  #foto-personal {
+    float: right;
+    width: 150px;
+    height: 150px;
+    margin-left: 20px;
+    border-radius: 0%;
+  }
+  .footer {
+    opacity: 0.7;
+    background-color: #9ac8d6;
+    color: #000000;
+    padding: 20px;
+    font-size: 20px;
+    height: 40px;
+    position: relative;
+    text-align: center;
+    font-family: "Times New Roman", serif
+  }
+
+  .image-container {
+    position: absolute;
+    padding: 20px;
+    bottom: 0;
+    right: 0;
+  }
+  
+  .image-container img {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+  }
+  
+@media screen and (max-width: 480px) {
+  
+  .section {
+    width: 90%;
+    padding: 2%;
+  }
+
+  .menu li {
+    display: block;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  .section h2 {
+    font-size: 24px;
+  }
+
+  .section p {
+    font-size: 16px;
+  }
+
+  .section li {
+    font-size: 16px;
+  }
+
+  table th,
+  table td {
+    padding: 5px;
+  }
+
+  .footer {
+    font-size: 16px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
+}

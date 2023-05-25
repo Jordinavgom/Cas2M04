@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<formulario>
+  <informacion_personal>
+    <nombre>Jordi</nombre>
+    <direccion>Passatge Júpiter, 8</direccion>
+    <telefono>658748236</telefono>
+    <correo>jordinavarro@iesmontsia.org</correo>
+  </informacion_personal>
+  
+  <experiencia_laboral>
+    <empleo>
+      <empresa1>Ubisoft</empresa1>
+      <puesto>Programador</puesto>
+      <fecha>20/06/2017</fecha>
+    </empleo>
+    <empleo>
+      <empresa2>Telefonica</empresa2>
+      <puesto2>Técnic</puesto2>
+      <fecha2>10/08/2020</fecha2>
+    </empleo>
+  </experiencia_laboral>
+  
+  <educacion>
+    <titulo>Administració de Sistemes Informatics en Xarxa</titulo>
+    <institucion>IESMontsià</institucion>
+    <fecha3>26/06/2022</fecha3>
+  </educacion>
+  
+  <habilidades>
+    <habilitat1>Adaptabilitat</habilitat1>
+    <habilitat2>Colaboració</habilitat2>
+    <habilitat3>Creativitat</habilitat3>
+  </habilidades>
+</formulario>
